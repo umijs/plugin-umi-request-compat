@@ -1,20 +1,8 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "moduleResolution": "node",
-    "jsx": "preserve",
-    "allowJs": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
     "declaration": true,
-    "skipLibCheck": true
-  },
-  "exclude": [
-    "node_modules",
-    "lib",
-  ]
+    "skipLibCheck": true,
+    "baseUrl": "./"
+  }
 }
