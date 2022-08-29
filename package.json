@@ -1,0 +1,25 @@
+{
+	"name": "plugin-umi-request-compat",
+	"version": "1.0.0",
+	"description": "plugin-umi-request-compat",
+	"main": "lib/index.js",
+	"scripts": {
+		"build": "father-build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/umijs/plugin-umi-request-compat"
+	},
+	"keywords": [
+		"umi"
+	],
+	"dependencies": {
+		"@ahooksjs/use-request": "^2.8.0",
+		"umi-request": "^1.2.14"
+	},
+	"devDependencies": {
+		"@types/node": "^18.7.13",
+		"father-build": "^1.22.3",
+		"umi": "^4.0.15"
+	}
+}
